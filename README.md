@@ -1,2 +1,1 @@
-# Lanschool
-All of the source code for lanschool helper
+# Background.js is where all the important stuff is 
