@@ -1,0 +1,85 @@
+{
+	"packageName": {
+		"message": "LanSchool Web Helper",
+		"description": "Name of the installed package"
+	},
+	"packageNameBeta": {
+		"message": "LanSchool Web Helper BETA",
+		"description": "Name of the installed package"
+	},
+	"packageNameBeta2": {
+		"message": "LanSchool Web Helper BETA 2",
+		"description": "Name of the installed package"
+	},
+	"packageNameBeta3": {
+		"message": "LanSchool Web Helper BETA 3",
+		"description": "Name of the installed package"
+	},
+	"plugindescription": {
+		"message": "Helps your teacher maintain a great learning environment.",
+		"description": "Descriptions of the installed package."
+	},
+	"Version":	{
+		"message": "7.7.4.2",
+		"description": "Version of the extension"
+	},
+	"VersionTitle":	{
+		"message": "Version: ",
+		"description": "Version of the extension"
+	},
+
+	"product_name": {
+		"message": "LanSchool",
+		"dscription": "Product name"
+	},
+
+	"page_blocked_available_title": {
+		"message": "Sites disponibles - ",
+		"descripttion": "Title for the list of available web sites"
+	},
+
+	"page_blocked_title": {
+		"message": "Les sites Internet suivants sont bloqués : - ",
+		"descripttion": "Title for the list of available web sites"
+	},
+
+
+	"page_blocked_header": {
+		"message": "Les sites Internet suivants sont bloqués.",
+		"descripttion": "Message when a website is blocked."
+	},
+	"all_blocked_header": {
+		"message": "Tous les sites sont actuellement bloqués.",
+		"descripttion": "Message when a website is blocked."
+	},
+
+	"page_blocked_header_allowed": {
+		"message": "Les sites Internet suivants sont autorisés : ",
+		"descripttion": "Message when a website is blocked but some sites are allowed."
+	},
+
+	"available_websites": {
+		"message": "Informations disponibles sur le site Internet.",
+		"description": "Header for the list of available websites."
+	},
+
+	"blocked_website": {
+		"message": "Le site Internet ont bloqués",
+		"description": "Header for the list of available websites."
+	},
+
+	"blocked_ipaddress": {
+		"message": "Adresse ip bloqué",
+		"description": "Header for the list of available websites."
+	},
+	"web_limited": {
+		"message": "Restreint l'usage de l'Internet pour l'instant.",
+		"description": "Message to student that web limiting is in effect."		
+	},
+
+	"END":	{
+		"message": "EndOfLocalStrings",
+		"description": "none"
+	}
+
+}

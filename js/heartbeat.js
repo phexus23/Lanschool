@@ -1,0 +1,1 @@
+var receivedHeartBeat = false;

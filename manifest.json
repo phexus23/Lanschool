@@ -1,0 +1,87 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version": 3,
+    "name": "__MSG_packageName__",
+    "version": "9.2.0.2",
+    "description": "__MSG_plugindescription__",
+    "default_locale": "en",
+    "icons": {
+        "16": "/icon16.png",
+        "48": "/icon48.png",
+        "128": "/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "/js/configstudent.js"
+            ]
+        },
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "/js/pip.js"
+            ]
+        },
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "all_frames": true,
+            "match_about_blank": true,
+            "run_at": "document_start",
+            "js": [
+                "/js/kl.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_icon": "/blank.png"
+    },
+    "background": {
+        "service_worker": "/js/background.js"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "webNavigation",
+        "webRequest",
+        "webRequestBlocking",
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "/style.css",
+                "/blocked.html"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "offline_enabled": true,
+    "incognito": "spanning",
+    "commands": {
+        "check-state": {
+            "suggested_key": {
+                "default": "Alt+Shift+Home",
+                "mac": "Alt+Shift+Home",
+                "windows": "Alt+Shift+Q"
+            },
+            "description": "Send a 'check-state' event"
+        }
+    }
+}

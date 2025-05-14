@@ -1,0 +1,85 @@
+{
+	"packageName": {
+		"message": "LanSchool Web Helper",
+		"description": "Name of the installed package"
+	},
+	"packageNameBeta": {
+		"message": "LanSchool Web Helper BETA",
+		"description": "Name of the installed package"
+	},
+	"packageNameBeta2": {
+		"message": "LanSchool Web Helper BETA 2",
+		"description": "Name of the installed package"
+	},
+	"packageNameBeta3": {
+		"message": "LanSchool Web Helper BETA 3",
+		"description": "Name of the installed package"
+	},
+	"plugindescription": {
+		"message": "Helps your teacher maintain a great learning environment.",
+		"description": "Descriptions of the installed package."
+	},
+	"Version":	{
+		"message": "7.7.4.2",
+		"description": "Version of the extension"
+	},
+	"VersionTitle":	{
+		"message": "Version: ",
+		"description": "Version of the extension"
+	},
+
+	"product_name": {
+		"message": "LanSchool",
+		"dscription": "Product name"
+	},
+
+	"page_blocked_available_title": {
+		"message": "접속 가능한 웹사이트: ",
+		"descripttion": "Title for the list of available web sites"
+	},
+
+	"page_blocked_title": {
+		"message": "접속 차단된 웹사이트. - ",
+		"descripttion": "Title for the list of available web sites"
+	},
+
+
+	"page_blocked_header": {
+		"message": "접속 차단된 웹사이트.",
+		"descripttion": "Message when a website is blocked."
+	},
+	"all_blocked_header": {
+		"message": "모든 웹 사이트는 현재 차단됩니다.",
+		"descripttion": "Message when a website is blocked."
+	},
+
+	"page_blocked_header_allowed": {
+		"message": "접속 가능한 웹사이트: ",
+		"descripttion": "Message when a website is blocked but some sites are allowed."
+	},
+
+	"available_websites": {
+		"message": "접속 가능한 웹사이트: ",
+		"description": "Header for the list of available websites."
+	},
+
+	"blocked_website": {
+		"message": "접속 차단된 웹사이트.",
+		"description": "Header for the list of available websites."
+	},
+
+	"blocked_ipaddress": {
+		"message": "IP 어드레스는 차단",
+		"description": "Header for the list of available websites."
+	},
+	"web_limited": {
+		"message": "접속가능 사이트 정보",
+		"description": "Message to student that web limiting is in effect."		
+	},
+
+	"END":	{
+		"message": "EndOfLocalStrings",
+		"description": "none"
+	}
+
+}

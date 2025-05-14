@@ -1,0 +1,1 @@
+var urlRegexPrefix = '.*[.]{0,1}';
